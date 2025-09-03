@@ -9,7 +9,7 @@ document.getElementById("signupForm").addEventListener("submit", function(e) {
     password: this.password.value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbymHABpsnR0AHyUgxzvoBqzs_VHNkwM5hCvpnWGHqTjI7bsTO4LB9fUZtHvN5TdTHpd/exec", {
+  fetch("ttps://script.google.com/macros/s/AKfycbymHABpsnR0AHyUgxzvoBqzs_VHNkwM5hCvpnWGHqTjI7bsTO4LB9fUZtHvN5TdTHpd/exec", {
     method: "POST",
     body: JSON.stringify(data)
   }).finally(() => {

